@@ -35,8 +35,7 @@ src_dir: ''
 # tags or branches should be indicated after an "@" symbol. The default is the
 # two GitHub repositories 'translations-un-sdg' and 'translations-open-sdg'.
 translations:
-  - https://github.com/open-sdg/translations-un-sdg.git@1.0.0-rc1
-  - https://github.com/open-sdg/translations-open-sdg.git@1.0.0-rc6
+  - https://github.com/open-sdg/sdg-translations.git@0.8.3
 
 # Reporting status extra fields
 # -----------------------------
