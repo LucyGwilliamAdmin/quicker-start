@@ -1,8 +1,8 @@
 ---
 name: Report a bug - data
-about: Create a report to help us improve
+about: Report a bug with your data build to help us improve
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
