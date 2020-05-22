@@ -6,6 +6,8 @@ labels: 'bug'
 assignees: ''
 
 ---
+**Please complete the following information** 
+Site repository URL: [e.g. github.com/ONSdigital/sdg-data]
 
 **Describe the bug**
 A clear and concise description of what the bug is.
