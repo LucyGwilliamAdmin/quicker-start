@@ -6,17 +6,10 @@ labels: 'bug'
 assignees: ''
 
 ---
-
-
-**What is the URL of your data repository?**
-
-**Is your issue with data or metadata?:**
-
-
-**What format are you you using for input? (delete as required)**
-Data: CSV, CKAN, SDMX (files), SDMX (API)
-
-Metadata: YAML (Markdown), CSV, Excel
+**Please complete the following information**
+Data repository URL: [e.g. github.com/ONSdigital/sdg-data]
+Data or metadata issue:
+Input format: [e.g. CSV, YAML (Markdown), SDMX]
 
 **Describe the bug**
 A clear and concise description of what the bug is.
