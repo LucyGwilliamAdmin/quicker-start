@@ -1,8 +1,8 @@
 ---
 name: Report a bug - site
-about: Create a report to help us improve
+about: Report a bug with your site build to help us improve
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
