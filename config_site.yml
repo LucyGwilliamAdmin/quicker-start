@@ -79,8 +79,8 @@ footer_menu:
 
 metadata_tabs:
   indicator_information:
-    title: custom.indicator_information
-    blurb: custom.indicator_information_blurb
+    title: indicator.indicator_information
+    blurb: indicator.indicator_information_blurb
   national:
     title: indicator.national_metadata
     blurb: indicator.national_metadata_blurb
@@ -88,8 +88,8 @@ metadata_tabs:
     title: indicator.sources
     blurb: indicator.sources_blurb
   data_reporter:
-    title: custom.data_reporter
-    blurb: custom.data_reporter_blurb
+    title: indicator.data_reporter
+    blurb: indicator.data_reporter_blurb
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
