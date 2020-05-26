@@ -85,8 +85,8 @@ metadata_tabs:
     title: indicator.national_metadata
     blurb: indicator.national_metadata_blurb
   sources_collection:
-    title: indicator.sources
-    blurb: indicator.sources_blurb
+    title: indicator.sources_collection
+    blurb: indicator.sources_collection_blurb
   data_reporter:
     title: indicator.data_reporter
     blurb: indicator.data_reporter_blurb
