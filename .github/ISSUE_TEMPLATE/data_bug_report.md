@@ -1,13 +1,13 @@
 ---
 name: Report a bug - data
-about: Report a bug with your data build to help us improve
+about: Report a bug with your data build
 title: ''
 labels: 'bug'
 assignees: ''
 
 ---
 **Please complete the following information**
-Data repository URL: [e.g. github.com/ONSdigital/sdg-data]
+Data repository URL: [e.g. github.com/ONSdigital/sdg-indicators]
 Data or metadata issue:
 Input format: [e.g. CSV, YAML (Markdown), SDMX]
 
