@@ -67,7 +67,7 @@ prose:
             label: "Indicator"
             translation_key: metadata_fields.indicator_name
             scope: indicator_information
-            - name: "goal_meta_link"
+      - name: "goal_meta_link"
         field:
             element: text
             label: "Link to UN metadata"
