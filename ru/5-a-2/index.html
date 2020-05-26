@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/quicker-start/assets/css/style.css?v=20200526120810">
+        <link rel="stylesheet" href="/quicker-start/assets/css/style.css?v=20200526130637">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -313,27 +313,54 @@ var translations = {
 
     <ul class="nav nav-tabs spacer medium" role="tablist">
 
+
+  
+  
+  
+  
   <li role="presentation" class="nav-item active">
-  <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
+    <a class="nav-link" data-toggle="tab" href="#indicator_information" aria-controls="indicator_information" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to National Metadata tab"
+data-event-label="Change to custom.indicator_information tab"
+>custom.indicator_information</a>
+  </li>
+
+  
+  
+  
+  
+  <li role="presentation" class="nav-item ">
+    <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.national_metadata tab"
 >Национальные метаданные</a>
-</li>
-<li role="presentation" class="nav-item">
-  <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
+  </li>
+
+  
+  
+  
+  
+  <li role="presentation" class="nav-item ">
+    <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Global Metadata tab"
->Глобальные метаданные</a>
-</li>
-<li role="presentation" class="nav-item">
-  <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to Sources tab"
+data-event-label="Change to indicator.sources tab"
 >Источники</a>
-</li>
+  </li>
+
+  
+  
+  
+  
+  <li role="presentation" class="nav-item ">
+    <a class="nav-link" data-toggle="tab" href="#data_reporter" aria-controls="data_reporter" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to custom.data_reporter tab"
+>custom.data_reporter</a>
+  </li>
 
 
   
@@ -345,25 +372,15 @@ data-event-label="Change to Sources tab"
 
     <div class="tab-content">
   
-    <div role="tabpanel" class="tab-pane active" id="national">
-  <!-- National Metadata -->
-  <div >
-    <article>
-      <p>
-        
-        
-        В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.
-      </p>
-      <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane active" id="indicator_information">
+      <article>
+        <p>custom.indicator_information_blurb</p>
+        <table class="table">
   
   
   
@@ -372,7 +389,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Показатель доступен </th>
+        <th scope="row">metadata_fields.series_name </th>
         <td>
           
             
@@ -382,297 +399,6 @@ data-event-label="Change to Sources tab"
         </tr>
         
       
-  
-      
-      
-      <tr>
-        <th scope="row">Описание показателя </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Географический охват </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Единица измерения </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Определения </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Расчёты </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.other_info </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.quality_assurance </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.international_comparability </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Другая информация </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.rational_interpretation </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Последний раз данные обновлялись </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/LucyGwilliamAdmin/quicker-start/commit/52c99d5495ee77aac9ba050a203cc613ae6f598c" target="_blank">
-                2020-03-11: see changes on GitHub <span class="visuallyhidden">открывается в новой вкладке</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-      
-      
-      <tr>
-        <th scope="row"> Последний раз метаданные обновлялись </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/LucyGwilliamAdmin/quicker-start/commit/52c99d5495ee77aac9ba050a203cc613ae6f598c" target="_blank">
-                2020-03-11: see changes on GitHub <span class="visuallyhidden">открывается в новой вкладке</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </article>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="global">
-  <!-- Global Metadata -->
-  <div>
-    <article>
-      <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
-      <table class="table">
-  
-  
-  
-  
   
       
       
@@ -683,20 +409,6 @@ data-event-label="Change to Sources tab"
             <p>Доля стран, в которых правовая база (в том
 числе обычное право) гарантирует женщинам равные
 права на владение и/или распоряжение землей</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Номер показателя </th>
-        <td>
-          
-            
 
           
         </td>
@@ -726,21 +438,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Номер задачи </th>
-        <td>
-          
-            <p>5.a</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Описание глобального показателя </th>
+        <th scope="row">metadata_fields.goal </th>
         <td>
           
             
@@ -754,10 +452,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Назначенный ООН уровень </th>
+        <th scope="row">metadata_fields.metadata_update </th>
         <td>
           
-            <p>2</p>
+            
 
           
         </td>
@@ -768,10 +466,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Депозитарное учреждение ООН  </th>
+        <th scope="row">metadata_fields.related_indicators </th>
         <td>
           
-            <p>FAO,World Bank, UN Women</p>
+            
 
           
         </td>
@@ -782,18 +480,9 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Ссылка на метаданные ООН </th>
+        <th scope="row">Название показателя </th>
         <td>
           
-            
-            
-            
-            
-
-            
-              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 634kB) <span class="visuallyhidden">открывается в новой вкладке</span>
-              </a>
             
 
           
@@ -801,64 +490,6 @@ data-event-label="Change to Sources tab"
         </tr>
         
       
-  
-      
-      
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -904,18 +535,509 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-    </article>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="sources">
-  <!-- Count the non-empty sources (up to 5) -->
+      </article>
+    </div>
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane " id="national">
+      <article>
+        <p>В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.</p>
+        <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.link_to_un_metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata (pdf 634kB) <span class="visuallyhidden">открывается в новой вкладке</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Географический охват </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.definition_concepts </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.measurement_units </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.classifications </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.rationale </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.comments_and_limitations </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.method_of_computation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.validation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.adjustments </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.missing_value_treatment </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.regional_aggregations </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.methods_guidance </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.quality_management </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.quality_assurance </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.quality_assessment </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.data_availability_and_disaggregation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.international_comparability </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.references_and_documentation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+      </article>
+    </div>
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane " id="sources">
+      <article>
+        <p>indicator.sources_blurb</p>
+        <!-- Count the non-empty sources (up to 5) -->
 
 
 
 
 
-</div>
+      </article>
+    </div>
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane " id="data_reporter">
+      <article>
+        <p>custom.data_reporter_blurb</p>
+        <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">custom.organization </th>
+        <td>
+          
+            
 
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.contact_person </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.contact_organization_unit </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.contact_person_function </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.contact_person_phone </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.contact_person_mail </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">custom.contact_person_email </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+      </article>
+    </div>
+    
   
   
   <div role="tabpanel" class="tab-pane" id="edit">
@@ -996,7 +1118,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/quicker-start/assets/js/sdg.js?v=20200526120810'></script><script>
+<script src='/quicker-start/assets/js/sdg.js?v=20200526130637'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
