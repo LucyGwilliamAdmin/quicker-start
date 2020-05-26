@@ -28,3 +28,10 @@ contact_person_phone: Contact telephone number
 contact_person_mail: Contact mailing address
 contact_person_email: Contact email address
 responsible_organisation: International organisation(s) responsible for global monitoring
+data_sources: Data sources
+data_collection_method: Data collection method
+data_collection_calendar: Data collection calendar
+data_release_calendar: Data release calendar
+data_providers: Data providers
+data_compilers: Data compilers
+institutional_mandate: Institutional mandate
