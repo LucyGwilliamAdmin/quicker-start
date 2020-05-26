@@ -1,5 +1,5 @@
-sources: Sources and Collection Method
-sources_blurb: This table provides information about the data sources and the collection method used.
+sources_collection: Sources and Collection Method
+sources_collection_blurb: This table provides information about the data sources and the collection method used.
 indicator_information: Indicator Information
 indicator_information_blurb: This table provides information about the indicator.
 data_reporter: Data Reporter
