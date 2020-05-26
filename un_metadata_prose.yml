@@ -191,43 +191,43 @@ prose:
             element: text
             label: "Data sources"
             translation_key: metadata_fields.data_sources
-            scope: sources
+            scope: sources_collection
       - name: "data_collection"
         field:
             element: text
             label: "Data collection method"
             translation_key: metadata_fields.data_collection_method
-            scope: sources
+            scope: sources_collection
       - name: "data_collection_calendar"
         field:
             element: text
             label: "Data collection calendar"
             translation_key: metadata_fields.data_collection_calendar
-            scope: sources
+            scope: sources_collection
       - name: "data_release_calendar"
         field:
             element: text
             label: "Data release calendar"
             translation_key: metadata_fields.data_release_calendar
-            scope: sources
+            scope: sources_collection
       - name: "data_providers"
         field:
             element: text
             label: "Data providers"
             translation_key: metadata_fields.data_providers
-            scope: sources
+            scope: sources_collection
       - name: "data_compilers"
         field:
             element: text
             label: "Data compilers"
             translation_key: metadata_fields.data_compilers
-            scope: sources
+            scope: sources_collection
       - name: "institutional_mandate"
         field:
             element: text
             label: "Institutional mandate"
             translation_key: metadata_fields.institutional_mandate
-            scope: sources
+            scope: sources_collection
        ######### Data reporter info #########
       - name: "organization_name"
         field:
