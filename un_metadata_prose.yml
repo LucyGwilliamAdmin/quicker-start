@@ -160,7 +160,7 @@ prose:
         field:
             element: text
             label: "Quality assurance"
-            translation_key: custom.quality_assurance
+            translation_key: metadata_fields.quality_assurance
             scope: national
       - name: "quality_assessment"
         field:
@@ -172,61 +172,61 @@ prose:
         field:
             element: text
             label: "Data availability and disaggregation"
-            translation_key: custom.data_availability_and_disaggregation
+            translation_key: metadata_fields.data_availability_and_disaggregation
             scope: national
       - name: "international_comparability"
         field:
             element: text
             label: "Comparability/deviation from international standards"
-            translation_key: custom.international_comparability
+            translation_key: metadata_fields.international_comparability
             scope: national
       - name: "references_documentation"
         field:
             element: text
             label: "References and documentation"
-            translation_key: custom.references_and_documentation
+            translation_key: metadata_fields.references_and_documentation
             scope: national
       - name: "data_sources"
         field:
             element: text
             label: "Data sources"
-            translation_key: custom.data_sources
+            translation_key: metadata_fields.data_sources
             scope: sources
       - name: "data_collection"
         field:
             element: text
             label: "Data collection method"
-            translation_key: custom.data_collection_method
+            translation_key: metadata_fields.data_collection_method
             scope: sources
       - name: "data_collection_calendar"
         field:
             element: text
             label: "Data collection calendar"
-            translation_key: custom.data_collection_calendar
+            translation_key: metadata_fields.data_collection_calendar
             scope: sources
       - name: "data_release_calendar"
         field:
             element: text
             label: "Data release calendar"
-            translation_key: custom.data_release_calendar
+            translation_key: metadata_fields.data_release_calendar
             scope: sources
       - name: "data_providers"
         field:
             element: text
             label: "Data providers"
-            translation_key: custom.data_providers
+            translation_key: metadata_fields.data_providers
             scope: sources
       - name: "data_compilers"
         field:
             element: text
             label: "Data compilers"
-            translation_key: custom.data_compilers
+            translation_key: metadata_fields.data_compilers
             scope: sources
       - name: "institutional_mandate"
         field:
             element: text
             label: "Institutional mandate"
-            translation_key: custom.institutional_mandate
+            translation_key: metadata_fields.institutional_mandate
             scope: sources
        ######### Data reporter info #########
       - name: "organization_name"
