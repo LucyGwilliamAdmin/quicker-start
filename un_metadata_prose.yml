@@ -61,11 +61,11 @@ prose:
             label: "Related indicators"
             translation_key: metadata_fields.related_indicators
             scope: indicator_information
-      - name: "International organisation(s) responsible for global monitoring"
+      - name: responsible_organisation
         field:
             element: text
-            label: "Indicator"
-            translation_key: metadata_fields.indicator_name
+            label: "International organisation(s) responsible for global monitoring"
+            translation_key: metadata_fields.responsible_organisation
             scope: indicator_information
       - name: "goal_meta_link"
         field:
@@ -233,43 +233,43 @@ prose:
         field:
             element: text
             label: "Organization"
-            translation_key: custom.organization
+            translation_key: metadata_fields.organization
             scope: data_reporter
       - name: "contact_name"
         field:
             element: text
             label: "Contact person(s)"
-            translation_key: custom.contact_person
+            translation_key: metadata_fields.contact_person
             scope: data_reporter
       - name: "contact_organization_unit"
         field:
             element: text
             label: "Contact organization unit"
-            translation_key: custom.contact_organization_unit
+            translation_key: metadata_fields.contact_organization_unit
             scope: data_reporter
       - name: "contact_function"
         field:
             element: text
             label: "Contact person function"
-            translation_key: custom.contact_person_function
+            translation_key: metadata_fields.contact_person_function
             scope: data_reporter
       - name: "contact_phone"
         field:
             element: text
             label: "Contact person's phone"
-            translation_key: custom.contact_person_phone
+            translation_key: metadata_fields.contact_person_phone
             scope: data_reporter
       - name: "contact_mail"
         field:
             element: text
             label: "Contact person's mail"
-            translation_key: custom.contact_person_mail
+            translation_key: metadata_fields.contact_person_mail
             scope: data_reporter
       - name: "contact_email"
         field:
             element: text
             label: "Contact person's email"
-            translation_key: custom.contact_person_email
+            translation_key: metadata_fields.contact_person_email
             scope: data_reporter
 
        ######### Data Info #########
