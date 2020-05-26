@@ -1,6 +1,6 @@
 ---
 name: General request
-about: Use this to leave any general comments
+about: Leave a general comment
 title: ''
 labels: ''
 assignees: ''
