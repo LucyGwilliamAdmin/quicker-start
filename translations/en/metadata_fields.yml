@@ -1,0 +1,29 @@
+series_name: Series
+goal: Goal name
+metadata_update: Metadata last updated
+related_indicators: Related indicators
+link_to_un_metadata: Link to UN metadata
+definition_concepts: Definition and concepts
+measurement_units: Unit of measure
+classifications: Classifications
+rationale: Rationale
+comments_and_limitations: Comments and limitations
+method_of_computation: Method of computation
+validation: Validation
+adjustments: Adjustments
+missing_value_treatment: Treatment of missing values (i) at country level and (ii) at regional level
+regional_aggregations: Regional aggregations
+methods_guidance: Methods and guidance available to countries for the compilation of the data at the national level
+quality_management: Quality management
+quality_assurance: Quality assurance
+quality_assessment: Quality assessment
+data_availability_and_disaggregation: Data availability and disaggregation
+international_comparability: Comparability/deviation from international standards
+references_and_documentation: References and documentation
+organization: Organization
+contact_person: Contact person(s)
+contact_organization_unit: Contact organization unit
+contact_person_function: Contact person function
+contact_person_phone: Contact telephone number
+contact_person_mail: Contact mailing address
+contact_person_email: Contact email address
