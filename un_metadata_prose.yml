@@ -222,7 +222,7 @@ prose:
             label: "Data compilers"
             translation_key: custom.data_compilers
             scope: sources
-       - name: "institutional_mandate"
+      - name: "institutional_mandate"
         field:
             element: text
             label: "Institutional mandate"
