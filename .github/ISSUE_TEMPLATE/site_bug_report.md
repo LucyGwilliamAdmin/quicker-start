@@ -1,6 +1,6 @@
 ---
 name: Report a bug - site
-about: Report a bug with your site build to help us improve
+about: Report a bug with your site build
 title: ''
 labels: 'bug'
 assignees: ''
@@ -8,6 +8,7 @@ assignees: ''
 ---
 **Please complete the following information** 
 Site repository URL: [e.g. github.com/ONSdigital/sdg-data]
+Open SDG version: [e.g. 1.0.0]
 
 **Describe the bug**
 A clear and concise description of what the bug is.
